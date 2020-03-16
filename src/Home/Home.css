@@ -1,0 +1,122 @@
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #f8f9fa;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding: 1em 0;
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-size: 24px;
+}
+
+.jumbotron .container {
+    display: block;
+}
+.cardMargin {
+    margin: 16px 0;
+}
+.card.cardSubBody {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: #fff;
+    padding: 0;
+    padding-bottom: 16px;
+    transition: box-shadow .15s ease-in-out;
+}
+.card.cardSubBody, .adskf__shadow-depth-1 {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.24);
+}
+.card {
+    font-family: Artifakt Element,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.card.cardSubBody .cardHeaderTitle {
+    display: block;
+    position: relative;
+    color: #3c3c3c;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 16px 16px 0;
+}
+.card.cardSubBody .cardBody {
+    color: #666;
+    padding: 16px 16px 0;
+    flex: 1;
+}
+.card.cardSubBody .headerFooter {
+    position: relative;
+    padding: 2em 16px 0;
+    margin-top: auto;
+}
+.card.cardSubBody .headerFooter a.headerFooter-link {
+    position: relative;
+    padding: .5em 0;
+    display: block;
+    color: #666;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.2;
+    border-bottom: 2px solid #f2f2f2;
+    text-decoration: none;
+}
+.card.cardSubBody .headerFooter a {
+    color: #666;
+    text-decoration: none;
+}
+.card.cardSubBody .headerFooter a.headerFooter-link .headerFooter-link-icon {
+    position: absolute;
+    right: 0;
+    top: .6em;
+    color: #e2e2e2;
+}
+.adskf__tutorial-theme .adskf__section a {
+    color: #0686c2;
+    text-decoration: none;
+}
+.card.cardSubBody .cardHeaderTitle.cardHeaderIcon .cardIcon {
+    height: 1.5em;
+    margin-right: .5em;
+    vertical-align: top;
+    position: absolute;
+}
+.adskf__tutorial-theme img {
+    max-width: 100%;
+}
+.card.cardSubBody .cardHeaderTitle {
+    display: block;
+    position: relative;
+    color: #3c3c3c;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 16px 16px 0;
+}
+.card.cardSubBody .cardHeaderTitle.cardHeaderIcon .cardName {
+    display: block;
+    margin-left: 2em;
+    line-height: 1.5em;
+}
+.card.cardSubBody .headerFooter a.headerFooter-link:last-child {
+    border-bottom: none;
+}
+.card.cardSubBody .headerFooter a.headerFooter-link:hover {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 1em;
+}
+.card.cardSubBody:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,.16), 0 8px 12px rgba(0,0,0,.19);
+}

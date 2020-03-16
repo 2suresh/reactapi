@@ -1,0 +1,16 @@
+.banner {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+    background-color: #343a40!important;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    color: #fff;
+    font-size: 3.2em;
+}
